@@ -1,0 +1,87 @@
+#contenido {
+    
+    background-color: black;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.articulo {
+    
+    background-color: darkseagreen;
+    padding: 10px;
+    margin: 10px;
+}
+
+.lado {
+    
+    background-color: darksalmon;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pie {
+    
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 320px;
+    margin: auto;
+}
+
+img {
+    max-width: 220px;
+    max-height: 150px;
+	
+}
+
+figure img {
+    max-width: 320px;
+    max-height: 250px;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
